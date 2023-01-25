@@ -19,9 +19,11 @@ $ npm install
 
 ## Pruebas con el autocorector
 
-Para ayudar al desarrollo, se provee una herramienta de autocorrección que prueba las distintas funcionalidades que se piden en el enunciado. Para utilizar esta herramienta debes tener node.js (y npm) (https://nodejs.org/es/) y Git instalados.
+El autocorector es la herramienta que permite pasar la batería de tests a la práctica y producir una nota. También subirla a Moodle junto con el código desarrollado, las capturas y otras evidencias de evaluación. Ejecute el autocorector tantas veces como desee en la práctica y suba la nota a Moodle también tantas veces como desee hasta que se cierre la entrega. La nota registrada será la última subida antes del cierre de la entrega.
 
-Para instalar y hacer uso de la herramienta de autocorrección en el ordenador local, ejecuta los siguientes comandos en el directorio raíz del proyecto:
+La nota que sube el autocorector es una nota provisional que puede estar sujeta a revisión por parte de los profesores de la asignatura, por ejemplo para revisar las capturas de pantalla subidas o si el código es copia de un compañero o es de un año anterior, en cuyo caso se actuará en consecuencia modificando la nota (o suspendiendo la asignatura completa en caso de copia).
+
+Para utilizar esta herramienta debes tener Node.js, npm y git istalados. Para instalar y hacer uso de la herramienta de autocorrección en el ordenador local, ejecuta los siguientes comandos en el directorio raíz del proyecto:
 
 ```
 $ npm install autocorector     ## Instala el programa de test
@@ -29,8 +31,7 @@ $ npx autocorector             ## Pasa los tests al fichero a entregar
 ............................   ## en el directorio de trabajo
 ... (resultado de los tests)
 ```
-
-Se puede pasar la herramienta de autocorrección tantas veces como se desee sin ninguna repercusión en la calificación.
+Ver FAQ con soluciones a problemas comunes en el Moodle de la asignatura.
 
 ## Pruebas manuales y capturas de pantalla
 
