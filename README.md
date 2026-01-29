@@ -2,7 +2,7 @@
 
 ## Descargar el código del proyecto
 
-Para poder utilizar el autocorector en las prácticas de CORE, es necesario utilizar la **versión 20 de Node.js (https://nodejs.org/es/) y Git (https://git-scm.com/)**.
+Para poder utilizar el autocorector en las prácticas de CORE, es necesario utilizar la **versión 24 de Node.js (https://nodejs.org/es/) y Git (https://git-scm.com/)**.
 El proyecto debe clonarse en el ordenador en el que se está trabajando:
 
 ```
